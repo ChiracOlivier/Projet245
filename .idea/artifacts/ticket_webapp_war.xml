@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ticket-webapp:war">
+    <output-path>$PROJECT_DIR$/ticket/ticket-webapp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ticket-webapp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ticket-webapp.war">
+      <element id="artifact" artifact-name="ticket-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

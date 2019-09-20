@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ticket-consumer" />
+        <module name="ticket-batch" />
+        <module name="ticket-business" />
+        <module name="ticket-model" />
+        <module name="ticket-technical" />
+        <module name="ticket-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ticket" target="1.8" />
+      <module name="ticket-batch" target="1.8" />
+      <module name="ticket-business" target="1.8" />
+      <module name="ticket-consumer" target="1.8" />
+      <module name="ticket-model" target="1.8" />
+      <module name="ticket-technical" target="1.8" />
+      <module name="ticket-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
