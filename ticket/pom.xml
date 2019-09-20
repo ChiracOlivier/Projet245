@@ -44,6 +44,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <jersey.version>2.26</jersey.version>
+        <spring-version></spring-version>
     </properties>
 
 
@@ -231,14 +232,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.7</version>
             </plugin>
 
             <!-- ===== Rapport sur les tests ===== -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.20</version>
                 <configuration>
                     <linkXRef>false</linkXRef>
                 </configuration>
@@ -275,7 +274,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9</version>
                 <configuration>
                     <quiet>true</quiet>
                     <locale>fr</locale>
@@ -303,7 +301,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>2.17</version>
                 <configuration>
                     <configLocation>src/build/checkstyle.xml</configLocation>
                     <linkXRef>false</linkXRef>

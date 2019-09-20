@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Projet245.iml" filepath="$PROJECT_DIR$/.idea/Projet245.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket.iml" filepath="$PROJECT_DIR$/ticket/ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-batch/ticket-batch.iml" filepath="$PROJECT_DIR$/ticket/ticket-batch/ticket-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-business/ticket-business.iml" filepath="$PROJECT_DIR$/ticket/ticket-business/ticket-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-consumer/ticket-consumer.iml" filepath="$PROJECT_DIR$/ticket/ticket-consumer/ticket-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-model/ticket-model.iml" filepath="$PROJECT_DIR$/ticket/ticket-model/ticket-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-technical/ticket-technical.iml" filepath="$PROJECT_DIR$/ticket/ticket-technical/ticket-technical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ticket/ticket-webapp/ticket-webapp.iml" filepath="$PROJECT_DIR$/ticket/ticket-webapp/ticket-webapp.iml" />
+    </modules>
+  </component>
+</project>
