@@ -9,10 +9,11 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:/applicationContext.xml</param-value>
-    </context-param>
+        <!-- ... -->
+        <context-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:/bootstrapContext.xml</param-value>
+        </context-param>
     <resource-ref>
         <res-ref-name>jdbc/DB_TICKET</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
