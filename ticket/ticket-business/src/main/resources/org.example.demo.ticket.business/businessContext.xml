@@ -18,4 +18,9 @@
         <property name="projetManager" ref="projetManager"/>
         <property name="ticketManager" ref="ticketManager"/>
     </bean>
+
+
+    <bean id="txManagerTicket" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSourceTicket"/>
+    </bean>
 </beans>
