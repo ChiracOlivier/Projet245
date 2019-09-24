@@ -1,4 +1,4 @@
-## Simplifiez le développement d'applications Java avec Spring
+## Simplification du développement d'applications Java avec Spring
 
 
 ### Contenu
