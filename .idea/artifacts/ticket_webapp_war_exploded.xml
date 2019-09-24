@@ -21,8 +21,8 @@
             <element id="module-output" name="ticket-consumer" />
           </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.11.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.11.RELEASE" />
           <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.11.RELEASE" />
           <element id="archive" name="ticket-model-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ticket-model" />
           </element>
